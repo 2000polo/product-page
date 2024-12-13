@@ -5,7 +5,7 @@ console.log(foodSlice)
 
 const store = configureStore({
     reducer: {
-        foodSlice: foodSlice,
+        foods: foodSlice,
     }
 })
 
